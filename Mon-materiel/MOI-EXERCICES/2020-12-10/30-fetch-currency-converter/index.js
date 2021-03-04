@@ -20,7 +20,7 @@ function hermann() {
     .then((data) => data.ticker)
     .then((ticker) => ticker.price)
     .then((price) => {
-      result.innerHTML = `${input_1.value * price} (${cripto_currency.value})`;
+      result.innerHTML = `${(input_1.value * price).toFixed(2)} ${cripto_currency.value}`;
     })
     .catch((error) => (document.querySelector(".error").innerHTML = error));
 }

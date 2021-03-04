@@ -16,7 +16,7 @@ app.use( async (req,res,next)=>{
 })
 
 app.use(async(err,req,res,next)=>{
-    res.status(err.status || 500)
+    res.status(err.status || 404)
     res.send(err.message)
     /* res.send({
         error:{

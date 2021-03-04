@@ -1,0 +1,24 @@
+.logo{
+    width: 5rem;
+}
+
+.title{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  /* #content-wrap {
+    padding-bottom: 2.5rem;    
+  } */
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5.5rem;            
+  }
